@@ -1,6 +1,6 @@
 ##INSTALLASI
-Java SE Development Kit 8u102
-jdk-8u102-windows-x64.exe
+- Java SE Development Kit 8u102
+- jdk-8u102-windows-x64.exe
 
 1-install jdk
 2-add java/jdk…/bin to path
@@ -11,11 +11,12 @@ jdk-8u102-windows-x64.exe
 All SDK package licenses accepted.======] 100% Computing updates
 
 
-STEP by STEP
+##STEP by STEP
 
 
-A. JAVA INSTALL AND SETTING 
-  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+##A. JAVA INSTALL AND SETTING 
+```
+  -URL: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
   Control Panel\System and Security\System -> ENVIRONMENT VARIABLE
   -System variable
    JDK_HOME
@@ -24,13 +25,14 @@ A. JAVA INSTALL AND SETTING
 	C:\Program Files\Java\jre1.8.0_102
    Path
 	C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%JDK_HOME%\bin;%JRE_HOME%\bin;
-C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\xampp\php;C:\Program Files\TortoiseSVN\bin;C:\Program Files\doxygen\bin;C:\Program Files\nodejs\;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\tools;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\platform-tools;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\
+```
+##C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\xampp\php;C:\Program Files\TortoiseSVN\bin;C:\Program Files\doxygen\bin;C:\Program Files\nodejs\;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\tools;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\platform-tools;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\
    TEST CMD prom:
    c:\user\userlogin>
    c:\user\userlogin>javac
    if show parameter -> success config
 
-B. NOTE JS INSTALL /NPM 
+##B. NOTE JS INSTALL /NPM 
   https://nodejs.org/en/  
   LTS
   Control Panel\System and Security\System -> ENVIRONMENT VARIABLE
