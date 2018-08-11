@@ -25,10 +25,8 @@ A. JAVA INSTALL AND SETTING
 	C:\Program Files\Java\jre1.8.0_102
    Path
 	C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%JDK_HOME%\bin;%JRE_HOME%\bin;
-```
+	C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\xampp\php;C:\Program Files\TortoiseSVN\bin;C:\Program Files\doxygen\bin;C:\Program Files\nodejs\;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\tools;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\platform-tools;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\
 
-C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\xampp\php;C:\Program Files\TortoiseSVN\bin;C:\Program Files\doxygen\bin;C:\Program Files\nodejs\;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\tools;D:\code\Editor\adt-bundle-windows-x86_64-20130911\adt-bundle-windows-x86_64-20130911\sdk\platform-tools;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\
-```
    TEST CMD prom:
    c:\user\userlogin>
    c:\user\userlogin>javac
