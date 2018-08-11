@@ -1,0 +1,42 @@
+<ion-content>
+<form [formGroup]="todo" (ngSubmit)="tambahUser(todo.value)">
+  <ion-list insert>
+    <ion-item>
+      <!-- <ion-label>Username</ion-label> -->
+      <!-- <ion-label floating>Username</ion-label> -->
+      <ion-input formControlName="usr" placeholder="Username"
+          type="text"></ion-input>
+    </ion-item>
+      <ion-item *ngIf="todo.get('usr').errors && todo.get('usr').dirty">
+       <p color="danger" ion-text *ngIf="todo.get('usr').hasError('required')">Required</p>
+      </ion-item>
+    <ion-item>
+      <!-- <ion-label floating>Password</ion-label> -->
+      <ion-input formControlName="psw"
+          type="text"></ion-input>
+          <!-- type="password"></ion-input> -->
+    </ion-item>      
+      <ion-item *ngIf="todo.get('psw').errors && todo.get('psw').dirty">
+            <p color="danger" ion-text *ngIf="todo.get('psw').hasError('required')">Required</p>
+            <p color="danger" ion-text *ngIf="todo.get('psw').hasError('minlength')">Min 10</p>
+            <!-- <p color="danger" ion-text *ngIf="todo.get('psw').hasError('pattern')">numerik</p> -->
+            <p color="danger" ion-text *ngIf="todo.get('psw').hasError('equalTo')">duplicate</p>
+      </ion-item>
+    <ion-item margin-bottom>
+        <button ion-button color="primary"
+           text-center
+           block
+           [disabled]="!todo.valid">Send your message</button>
+     </ion-item>
+  
+    
+    </ion-list>
+  </form>
+  <ion-row>
+        <button ion-button block color="primary" (click)=closeModal()>close</button>
+        <!-- <button ion-button block color="primary" (click)=tambahUser()>test</button> -->
+
+  </ion-row>
+</ion-content>
+
+  

@@ -1,0 +1,11 @@
+<ion-content padding>
+    <ion-row>
+      <button ion-button block color="primary" (click)=tutup()>close</button>
+    </ion-row>
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-list>
+      <ion-item *ngFor=" let data of items">
+        {{data.usr}}
+      </ion-item>
+    </ion-list>
+</ion-content>

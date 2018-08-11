@@ -1,0 +1,8 @@
+{
+  "name": "loginpage-ionic3-angular4",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

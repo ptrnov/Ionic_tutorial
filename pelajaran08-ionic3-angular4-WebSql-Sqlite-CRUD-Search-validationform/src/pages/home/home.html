@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Ionic3!</h2>
+  <ion-list >
+      <ion-item *ngFor="let item of ListUser">
+        {{item.usr}}
+      </ion-item>
+  </ion-list> 
+  <button ion-button  color="primary" (click)="logout()">Logout</button>
+  <button ion-button  color="primary" (click)="cariData()">Search</button> 
+  <button ion-button  color="primary" (click)="invoice()">List User </button>
+  <button ion-button  color="primary" (click)="openModaladdUser()">Modal Add User </button>
+  
+</ion-content>

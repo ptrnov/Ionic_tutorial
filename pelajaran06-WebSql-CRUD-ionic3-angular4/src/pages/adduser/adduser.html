@@ -1,0 +1,31 @@
+<ion-content>
+<form [formGroup]="form" (ngSubmit)="saveDetails(form.value)">
+
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input formControlName="usr"
+          type="text"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input formControlName="psw"
+          type="password"></ion-input>
+    </ion-item>      
+  
+    <ion-item margin-bottom>
+        <button ion-button color="primary"
+           text-center
+           block
+           [disabled]="!form.valid">Send your message</button>
+     </ion-item>
+  
+    
+    
+  </form>
+  <ion-row>
+      <button ion-button block color="primary" (click)=closeModal()>close</button>
+  </ion-row>
+</ion-content>
+
+  
