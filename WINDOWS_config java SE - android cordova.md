@@ -1,4 +1,5 @@
-##INSTALLASI
+INSTALLASI SDK IN Window
+Author ptr.nov@gmail.com
 ```
 - Java SE Development Kit 8u102
 - jdk-8u102-windows-x64.exe
