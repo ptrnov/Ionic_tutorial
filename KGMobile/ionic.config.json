@@ -1,0 +1,16 @@
+{
+  "name": "Kontrol Gampang",
+  "integrations": {
+    "cordova": {}
+  },
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "scss/**/*"
+  ],
+  "type": "ionic1"
+}
