@@ -118,4 +118,8 @@ https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc
 ==object object ==
 https://alligator.io/js/dealing-with-objects/
 
+== ADD ICON FONT AWESOME ==
+reff: https://charlouze.github.io/ionic/2017/05/31/Ionic-3-and-Font-Awesome.html
+npm install font-awesome --save --save-exact
+
 ```
