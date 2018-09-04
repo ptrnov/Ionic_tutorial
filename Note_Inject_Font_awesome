@@ -1,5 +1,5 @@
-
 ```
+
 Anda memerlukan file konfigurasi salinan khusus, jadi ubahlah package.jsonuntuk memiliki ini
 "config": {
         "ionic_copy": "./config/copy.config.js"
