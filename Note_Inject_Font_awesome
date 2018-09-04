@@ -1,0 +1,42 @@
+Anda memerlukan file konfigurasi salinan khusus, jadi ubahlah package.jsonuntuk memiliki ini
+"config": {
+        "ionic_copy": "./config/copy.config.js"
+    },
+Di mana config/copy.config.jsdasarnya adalah salinannode_modules/@ionic/app-scripts/config/copy.config.js
+
+Edit Anda config/copy.config.jsuntuk menambahkan arahan untuk menyalin font mengagumkan dan file font
+copyFontawesomeFonts: {
+    src: ['{{ROOT}}/node_modules/font-awesome/fonts/**/*'],
+    dest: '{{WWW}}/assets/fonts'
+  },
+  copyFontawesomeCss: {
+    src: ['{{ROOT}}/node_modules/font-awesome/css/font-awesome.min.css'],
+    dest: '{{WWW}}/assets/css'
+  },
+Edit src/index.htmluntuk menambahkan font-awesome css (yang akan disalin ketika Anda melayani / membangun berkat konfigurasi kustom Anda di atas)
+ <link href="assets/css/font-awesome.min.css" rel="stylesheet"/>
+Gunakan fakelas Anda di template Anda seperti:
+   <i class="fa fa-user-md fa-2x"></i>
+   
+   
+use : not exit original node ===
+
+
+create file: config.js
+
+var path = require('path');
+var useDefaultConfig = require('@ionic/app-scripts/config/copy.config.js');
+
+module.exports = function () {
+	useDefaultConfig.copyFontawesomeFonts = {
+		src: ['{{ROOT}}/node_modules/font-awesome/fonts/**/*'],
+		dest: '{{WWW}}/assets/fonts'
+	};
+	
+	useDefaultConfig.copyFontawesomeCss = {
+		src: ['{{ROOT}}/node_modules/font-awesome/css/font-awesome.min.css'],
+		dest: '{{WWW}}/assets/css'
+	};
+
+	return useDefaultConfig;
+};
