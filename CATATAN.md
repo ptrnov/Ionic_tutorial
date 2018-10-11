@@ -122,4 +122,8 @@ https://alligator.io/js/dealing-with-objects/
 reff: https://charlouze.github.io/ionic/2017/05/31/Ionic-3-and-Font-Awesome.html
 npm install font-awesome --save --save-exact
 
+=== ANDROID CLEAN ===
+cordova clean android
+
+
 ```
