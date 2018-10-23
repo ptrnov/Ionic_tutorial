@@ -63,6 +63,7 @@ https://stackoverflow.com/questions/50693802/websql-ios-ionic-3-data-fetch-issue
 ==Tambahkan platform windows==
 == Untuk sqlite d browser
 #ionic cordova platform add windows
+#ionic cordova platform add browser
 https://github.com/Microsoft/cordova-plugin-websql
 
 === Release / Build APK ===
