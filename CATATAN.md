@@ -126,5 +126,24 @@ npm install font-awesome --save --save-exact
 === ANDROID CLEAN ===
 cordova clean android
 
+=== IOS ==
+reff: https://arnhem.luminis.eu/complete-angular-js-cordova-app-tutorial-part-3/
+1. HOMEBREW
+  #brew --version
+  #brew update
+2. Install Ant with Homebrew
+  #brew install ant
+  #ant -version
+  #open .     => open path finder current path cli
+3. Path SDK
+   #export PATH=/usr/local/bin:/Users/ptrnov/Library/Android/sdk:/Users/ptrnov/Library/Android/sdk/platform-tools:$PATH
+   #export PATH=/sr/local/bin:/Users/ptrnov/Library/Android/sdk/platform-tools:/sr/local/bin:/Users/ptrnov/Library/Android/sdk/tools:$PATH
+   #adb -version
+   #adb devices
+   -> Issue "upgrade package signature doesn't match cannot install this upgrade package"
+     #adb uninstall performance.scm.co.id
+   
+
+
 
 ```
